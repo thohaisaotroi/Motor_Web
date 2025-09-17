@@ -1,0 +1,23 @@
+/* Footer.scss */
+footer {
+  margin-top: auto; /* This pushes the footer to the bottom */
+  width: 100%;
+  text-align: center;
+}
+
+.copyright-text {
+  margin-bottom: 20px;
+  // margin-top: 50px;
+  color: rgb(104, 105, 109);
+  display: flex;
+  justify-content: center;
+
+  h5 {
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 4px;
+    margin-right: 4px;
+    display: inline;
+    font-weight: 500;
+  }
+}

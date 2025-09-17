@@ -1,0 +1,61 @@
+.searchPage {
+    // padding-top: 80px;
+    padding: 3%;
+    min-height: 97vh;
+    .searchContainer {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .searchInput {
+        width: 100%;
+        max-width: 600px;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .priceFilter {
+        display: flex;
+        gap: 20px;
+        margin-top: 10px;
+    }
+
+    .priceInput {
+        width: 150px; // Increased width
+        padding: 10px; // Increased padding
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        font-size: 16px; // Adjust font size
+        outline: none;
+        transition: box-shadow 0.2s ease-in-out;
+    }
+
+    .priceInput:focus {
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); // Enhanced shadow on focus
+    }
+    .filterSection {
+        margin-bottom: 20px;
+    }
+}
+.chargingWrapper {
+    margin: auto;
+    text-align: left;
+    text-transform: capitalize;
+    padding: 15px 0;
+    h2 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    h3 {
+        font-size: 22px;
+        font-weight: 500;
+        padding: 15px 0;
+    }
+}
+.atHome {
+    padding: 40px 0 50px;
+}
