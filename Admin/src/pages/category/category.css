@@ -1,0 +1,36 @@
+.category-page{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+
+    h1 {
+        font-size: 2em;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .category-page{
+        justify-content:flex-start;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .category-page{
+        align-items: center;
+    }
+}
+
+.category-container {
+    width: 100%;
+    overflow-x: auto; /* Horizontal scrolling if needed */
+    max-height: 500px; /* Optional: Max height to constrain table size */
+}
+
+.category-container table {
+    width: 100%; /* Ensure table width matches container width */
+    min-width: 800px; /* Adjust based on table content */
+}
